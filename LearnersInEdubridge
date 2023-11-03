@@ -1,0 +1,6 @@
+// Creating Tables
+Create Table Learners(
+  ID varchar (5),
+  Name varchar (12),
+  Address Varchar(10)
+    );
