@@ -3,4 +3,14 @@ Create Table Learners(
   ID varchar (5),
   Name varchar (12),
   Address Varchar(10)
-    );
+  );
+create table Teachers(
+  TID Varchar(5),
+  Name varchar(12),
+  Subject varchar (10)
+  );
+ Create Table Subjects(
+  TID varchar (5),
+  SID varchar (5),
+  Subject varchar(10)
+  );
